@@ -51,35 +51,35 @@ Sentiment-Analysis-Subword-ML/
 
 ## Setup Instructions
 
-### Create Virtual Environment
+### 1. Create Virtual Environment
 
-```bash
-py -m venv venv
-venv\Scripts\activate
-```
+  ```bash
+  py -m venv venv
+  venv\Scripts\activate
+  ```
 
-### Install Dependencies
+### 2. Install Dependencies
 
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ---
 
 ## How to Run (Script-Based – Way 1)
 
-```bash
-python run_tokenizer.py
-python embeddings/train_embeddings.py
-python models/classifier_custom.py
-python models/classifier_glove.py
-```
+  ```bash
+  python run_tokenizer.py
+  python embeddings/train_embeddings.py
+  python models/classifier_custom.py
+  python models/classifier_glove.py
+  ```
 
 ## How to Run (Notebook-Based – Way 2)
 
-```bash
-jupyter notebook run.ipynb
-```
+  ```bash
+  jupyter notebook run.ipynb
+  ```
 
 ---
 
@@ -89,9 +89,9 @@ Link : ![https://www.kaggle.com/datasets/watts2/glove6b50dtxt]https://www.kaggle
 
 After downloading, place the file at:
 
-```bash
-embeddings/glove.6B.50d.txt
-```
+  ```bash
+  embeddings/glove.6B.50d.txt
+  ```
 
 ---
 
