@@ -66,6 +66,18 @@ Sentiment-Analysis-Subword-ML/
 
 ---
 
+## GloVe Embeddings Download
+
+Link : https://www.kaggle.com/datasets/watts2/glove6b50dtxt
+
+After downloading, place the file at:
+
+  ```bash
+  embeddings/glove.6B.50d.txt
+  ```
+
+---
+
 ## How to Run (Script-Based – Way 1)
 
   ```bash
@@ -79,18 +91,6 @@ Sentiment-Analysis-Subword-ML/
 
   ```bash
   jupyter notebook run.ipynb
-  ```
-
----
-
-## GloVe Embeddings Download
-
-Link : https://www.kaggle.com/datasets/watts2/glove6b50dtxt
-
-After downloading, place the file at:
-
-  ```bash
-  embeddings/glove.6B.50d.txt
   ```
 
 ---
