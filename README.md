@@ -99,10 +99,10 @@ embeddings/glove.6B.50d.txt
 
 ## Results Summary
 
-Model                                | Accuracy | F1-score (weighted avg) 
--------------------------------------|----------|-------------------------
-Custom Tokenizer + Custom Embeddings | 0.581    | 0.58
-Pre-trained GloVe Embeddings         | 0.676    | 0.68 
+Model                                | Accuracy  | F1-score (weighted avg) 
+-------------------------------------|-----------|-------------------------
+Custom Tokenizer + Custom Embeddings | 0.5810625 | 0.58
+Pre-trained GloVe Embeddings         | 0.6755625 | 0.68 
 
 Conclusion:
 Pre-trained GloVe embeddings outperform custom embeddings due to richer semantic knowledge learned from large external corpora. However, the custom pipeline successfully demonstrates a complete NLP workflow built from scratch.
