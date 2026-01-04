@@ -1,0 +1,24 @@
+Custom Tokenizer + Custom Embeddings Results:
+Accuracy: 0.5810625
+Precision (weighted avg): 0.58
+Recall (weighted avg): 0.58
+F1-score (weighted avg): 0.58
+Total samples evaluated: 16000
+
+Pre-trained GloVe Embeddings Results:
+Accuracy: 0.6755625
+Precision (weighted avg): 0.68
+Recall (weighted avg): 0.68
+F1-score (weighted avg): 0.68
+Total samples evaluated: 16000
+
+Conclusion:
+The sentiment analysis model using a custom subword tokenizer and custom
+word embeddings trained from scratch achieved reasonable performance,
+with an accuracy of 0.581. When compared with pre-trained GloVe embeddings,
+the model performance improved significantly, achieving an accuracy of
+0.676. This improvement is expected because GloVe embeddings are trained
+on large-scale external corpora and capture richer semantic and contextual
+information. The comparison demonstrates the effectiveness of pre-trained
+embeddings while also validating the complete end-to-end NLP pipeline
+implemented from scratch.
