@@ -41,6 +41,7 @@ Sentiment-Analysis-Subword-ML/
 ├── evaluation/
 │   └── results.txt
 │
+├── .gitignore
 ├── run_tokenizer.py
 ├── run.ipynb
 ├── requirements.txt
