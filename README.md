@@ -85,7 +85,7 @@ Sentiment-Analysis-Subword-ML/
 
 ## GloVe Embeddings Download
 
-Link : ![https://www.kaggle.com/datasets/watts2/glove6b50dtxt]https://www.kaggle.com/datasets/watts2/glove6b50dtxt
+Link : https://www.kaggle.com/datasets/watts2/glove6b50dtxt
 
 After downloading, place the file at:
 
