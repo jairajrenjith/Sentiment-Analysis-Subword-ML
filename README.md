@@ -51,7 +51,7 @@ Sentiment-Analysis-Subword-ML/
 
 ## Setup Instructions
 
-### Create Virtual Environment (Python 3.11)
+### Create Virtual Environment
 
 ```bash
 py -m venv venv
@@ -74,8 +74,6 @@ python embeddings/train_embeddings.py
 python models/classifier_custom.py
 python models/classifier_glove.py
 ```
-
----
 
 ## How to Run (Notebook-Based – Way 2)
 
