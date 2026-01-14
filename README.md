@@ -2,9 +2,7 @@
 
 This project implements a complete end-to-end NLP pipeline for sentiment analysis. It includes a custom subword tokenizer (Byte Pair Encoding – BPE), custom-trained word embeddings, and a machine learning classifier, with a comparison against pre-trained GloVe embeddings.
 
-The project is implemented in two ways:
-1. Script-based approach using Python files
-2. Notebook-based approach using a single Jupyter notebook
+The project is implemented by a notebook-based approach using a single Jupyter notebook.
 
 ---
 
@@ -26,24 +24,14 @@ Sentiment-Analysis-Subword-ML/
 │   └── Sentiment_Analysis.csv
 │
 ├── tokenizer/
-│   ├── bpe_tokenizer.py
 │   └── subword_vocab.json
 │
 ├── embeddings/
-│   ├── train_embeddings.py
 │   ├── custom_embeddings.txt
 │   └── glove.6B.50d.txt
 │
-├── models/
-│   ├── classifier_custom.py
-│   └── classifier_glove.py
-│
-├── evaluation/
-│   └── results.txt
-│
 ├── .gitignore
-├── run_tokenizer.py
-├── run.ipynb
+├── sentiment_analysis.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -79,16 +67,7 @@ After downloading, place the file at:
 
 ---
 
-## How to Run (Script-Based – Way 1)
-
-  ```bash
-  python run_tokenizer.py
-  python embeddings/train_embeddings.py
-  python models/classifier_custom.py
-  python models/classifier_glove.py
-  ```
-
-## How to Run (Notebook-Based – Way 2)
+## How to Run
 
   ```bash
   jupyter notebook run.ipynb
