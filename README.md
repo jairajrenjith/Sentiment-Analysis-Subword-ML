@@ -29,24 +29,24 @@ We:
 Sentiment-Analysis-Subword-ML/
 │
 ├── data/
-│   ├── Sentiment_Analysis.csv        # Main dataset
-│   └── imdb_dataset.csv              # External IMDB dataset
+│   ├── Sentiment_Analysis.csv              # Main dataset
+│   └── imdb_dataset.csv                    # External IMDB dataset
 │
 ├── notebooks/
-│   ├── 00_download_imdb.ipynb        # Downloads IMDB dataset
-│   ├── 01_custom_tokenizer.ipynb     # Custom BPE tokenizer
-│   ├── 02_train_embeddings.ipynb     # Train Word2Vec embeddings
-│   ├── 03_custom_classification.ipynb# Custom embedding classifier
-│   ├── 04_pretrained_comparison.ipynb# Pretrained embedding comparison
-│   └── 05_embedding_visualization.ipynb # PCA visualization (optional)
+│   ├── 00_download_imdb.ipynb              # Downloads IMDB dataset
+│   ├── 01_custom_tokenizer.ipynb           # Custom BPE tokenizer
+│   ├── 02_train_embeddings.ipynb           # Train Word2Vec embeddings
+│   ├── 03_custom_classification.ipynb      # Custom embedding classifier
+│   ├── 04_pretrained_comparison.ipynb      # Pretrained embedding comparison
+│   └── 05_embedding_visualization.ipynb    # PCA visualization (optional)
 │
 ├── outputs/
-│   ├── subword_vocab.json            # Saved tokenizer vocabulary
-│   ├── custom_embeddings.vec         # Trained word vectors
-│   └── custom_model.pt               # Trained classification model
+│   ├── subword_vocab.json                  # Saved tokenizer vocabulary
+│   ├── custom_embeddings.vec               # Trained word vectors
+│   └── custom_model.pt                     # Trained classification model
 │
-├── README.md                         # README.md file
-└── requirements.txt                  # Project dependencies
+├── README.md                               # README.md file
+└── requirements.txt                        # Project dependencies
 ```
 
 ---
