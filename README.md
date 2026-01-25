@@ -1,6 +1,7 @@
 # Sentiment Analysis Using Custom Subword Tokenization & Word Embeddings
 
 This project builds a **complete NLP pipeline from scratch** for sentiment analysis.  
+
 It includes:
 
 - Custom **Subword Tokenizer (BPE)** implementation  
@@ -38,7 +39,7 @@ Sentiment-Analysis-Subword-ML/
 │   ├── 02_train_embeddings.ipynb           # Train Word2Vec embeddings
 │   ├── 03_custom_classification.ipynb      # Custom embedding classifier
 │   ├── 04_pretrained_comparison.ipynb      # Pretrained embedding comparison
-│   └── 05_embedding_visualization.ipynb    # PCA visualization (optional)
+│   └── 05_embedding_visualization.ipynb    # PCA visualization
 │
 ├── outputs/
 │   ├── subword_vocab.json                  # Saved tokenizer vocabulary
