@@ -165,7 +165,7 @@ Implemented **Byte Pair Encoding (BPE)** from scratch:
 - Tokenizes words into subword units
 - Saves vocabulary as `subword_vocab.json`
 
----
+
 
 ## Step 2 — Train Custom Word Embeddings
 
@@ -177,7 +177,7 @@ Implemented **Byte Pair Encoding (BPE)** from scratch:
   outputs/custom_embeddings.vec
   ```
 
----
+
 
 ## Step 3 — Text Classification (Custom Embeddings)
 
@@ -195,7 +195,7 @@ Model saved as:
   outputs/custom_model.pt
   ```
 
----
+
 
 ## Step 4 — Pretrained Embedding Comparison
 
@@ -203,9 +203,9 @@ Used **spaCy's pre-trained embeddings** and trained a Logistic Regression classi
 
 This helps evaluate the effectiveness of the custom-built pipeline.
 
----
 
-## Step 5 — Embedding Visualization (Optional)
+
+## Step 5 — Embedding Visualization
 
 Used **PCA** to reduce embedding dimensions and visualize how words cluster semantically.
 
